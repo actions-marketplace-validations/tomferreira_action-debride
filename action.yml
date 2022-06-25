@@ -1,6 +1,6 @@
-name: 'TODO: Run <linter-name> with reviewdog'
-description: 'TODO: 🐶 Run <linter-name> with reviewdog on pull requests to improve code review experience.'
-author: 'TODO: <your-name>'
+name: 'Run debride with reviewdog'
+description: '🐶 Run debride with reviewdog on pull requests to improve code review experience.'
+author: 'tomferreira'
 inputs:
   github_token:
     description: 'GITHUB_TOKEN'
