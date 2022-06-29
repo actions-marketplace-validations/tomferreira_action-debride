@@ -34,8 +34,8 @@ gem install -N debride --version "${DEBRIDE_VERSION}"
 echo '::endgroup::'
 
 echo '::group:: Running debride with reviewdog 🐶 ...'
-debride ${INPUT_DEBRIDE_FLAGS}  . |
-  reviewdog 
+debride ${INPUT_DEBRIDE_FLAGS} . \
+  | reviewdog \
     -efm="%*[\ ]%m%*[\ ]%f:%l" \
     -efm="%*[\ ]%m%*[\ ]%f:%l-%e" \
     -name="${INPUT_TOOL_NAME}" \

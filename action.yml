@@ -47,6 +47,7 @@ runs:
       env:
         INPUT_GITHUB_TOKEN: ${{ inputs.github_token }}
         INPUT_DEBRIDE_VERSION: ${{ inputs.debride_version }}
+        INPUT_DEBRIDE_FLAGS: ${{ inputs.debride_flags }}
         INPUT_TOOL_NAME: ${{ inputs.tool_name }}
         INPUT_LEVEL: ${{ inputs.level }}
         INPUT_REPORTER: ${{ inputs.reporter }}
